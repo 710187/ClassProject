@@ -19,4 +19,24 @@ insert into classes values ("EmergTech","B122","FRI_EV","1158");
 insert into classes values ("CSharp", "B125","FRI_PM","1451");
 insert into classes values ("Math","B111","WED_AM","1673");
 
-
+enrollement tables:
+insert into enrollments values ("107","1455");
+insert into enrollments values ("107","1247");
+insert into enrollments values ("106","1158");
+insert into enrollments values ("106","1673");
+insert into enrollments values ("108","1389");
+insert into enrollments values ("108","1247");
+insert into enrollments values ("109","1103");
+insert into enrollments values ("109","1203");
+insert into enrollments values ("101","1673");
+insert into enrollments values ("101","1451");
+insert into enrollments values ("110","1103");
+insert into enrollments values ("110","1103");
+insert into enrollments values ("102","1203");
+insert into enrollments values ("102","1455");
+insert into enrollments values ("103","1389");
+insert into enrollments values ("103","1451");
+insert into enrollments values ("104","1455");
+insert into enrollments values ("104","1247");
+insert into enrollments values ("105","1158");
+insert into enrollments values ("105","1389");
