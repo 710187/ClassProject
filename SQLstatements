@@ -40,3 +40,10 @@ insert into enrollments values ("104","1455");
 insert into enrollments values ("104","1247");
 insert into enrollments values ("105","1158");
 insert into enrollments values ("105","1389");
+
+SELECT students.studentname,Students.studentsid,
+classes.classname,classes.roomname,classes.datatime,
+classes.classid
+from students,classes,enrollement;
+Students.Studentid=enrollments.studentid;
+classes.classid=enrollements.classid;
