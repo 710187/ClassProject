@@ -44,6 +44,6 @@ insert into enrollments values ("105","1389");
 SELECT students.studentname,Students.studentsid,
 classes.classname,classes.roomname,classes.datatime,
 classes.classid
-from students,classes,enrollement;
-Students.Studentid=enrollments.studentid;
-classes.classid=enrollements.classid;
+from students,classes,enrollement
+where Students.Studentid=enrollments.studentid and
+classes.classid=enrollements.classid
