@@ -1,0 +1,22 @@
+Names table:
+insert into students values ("Steve", "102");
+insert into students values ("Jordan", "103");
+insert into students values ("Lisa", "104");
+insert into students values ("Mike", "105");
+insert into students values ("Bill", "106");
+insert into students values ("Polly", "107");
+insert into students values ("Jenna", "108");
+insert into students values ("Mitch", "109");
+insert into students values ("David", "110");
+
+classes tables:
+insert into classes values ("Java", "B230","MON_AM","1103");
+insert into classes values ("CSharp","B122","TUE_PM","1247");
+insert into classes values ("Math","A506","WED_EV","1389");
+insert into classes values ("Database","B123","THU_PM","1455");
+insert into classes values ("ProjMgt","B125","FRI_PM","1203");
+insert into classes values ("EmergTech","B122","FRI_EV","1158");
+insert into classes values ("CSharp", "B125","FRI_PM","1451");
+insert into classes values ("Math","B111","WED_AM","1673");
+
+
